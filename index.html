@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Signika:wght@700&display=swap"
+        rel="stylesheet">
+        
+    <title>Maria's Kitchen</title>
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div class="sidebar">
+
+        <!-- logo -->
+        <h1 class="logo">Maria's Kitchen</h1>
+        <!-- list of menus -->
+        <div class="sidebar-menus">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notifications</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+
+        </div>
+        <!-- logout -->
+        <div class="sidebar-logout">
+            <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+        <!-- main navbar -->
+        <div class="main-navbar">
+            <!-- menu when appear on mobile version -->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <!-- search bar -->
+            <div class="search">
+                <input type="text" placeholder="What you want to eat?">
+                <button class="search-btn">Search</button>
+            </div>
+            <!-- profile icon on left side of navbar -->
+            <div class="profile">
+                <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </div>
+        </div>
+        <!-- main highlight -->
+        <div class="main-highlight">
+            <!-- title section and arrow -->
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <!-- highlight menu -->
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img class="highlight-img" src="istockphoto-1454741285-1024x1024.jpg">
+                    <div class="highlight-desc">
+                        <h4>Fresh Salad</h4>
+                        <p>Rs.100/-</p>
+                    </div>
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="kabuli-pulao-7137524_1280.jpg">
+                    <div class="highlight-desc">
+                        <h4>Kabuli Pulao</h4>
+                        <p>Rs.300/-</p>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <img class="highlight-img" src="shahi-qorma-by-shireen-anwar_4269.jpg">
+                    <div class="highlight-desc">
+                        <h4>Shahi Qorma</h4>
+                        <p>Rs.400/-</p>
+                    </div>
+
+                </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="Chicken Biryani.webp">
+                    <div class="highlight-desc">
+                        <h4>Chicken Biryani</h4>
+                        <p>Rs.350/-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main menus/order -->
+        <div class="main-menus">
+            <!-- filter section -->
+            <div class="main-filter">
+                <div>
+                    <h2 class="main-title">Menu <br>Category</h2>
+                    <div class="main-arrow">
+                        <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                        <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </div>
+                        <p>All Menus</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="Chicken Nihari-outline"></ion-icon>   
+                            <img width="52" height="52" src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/65/external-curry-food-smashingstocks-circular-smashing-stocks-2.png" alt="external-curry-food-smashingstocks-circular-smashing-stocks-2"/>
+                        </div>
+                        <p>Chicken Nihari</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="rice-outline"></ion-icon>
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/rice-bowl.png" alt="rice-bowl"/>
+                        </div>
+                        <p>Chicken Pulao</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="curry-outline"></ion-icon>
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/cookies.png" alt="cookies"/>
+                        </div>
+                        <p>Shami Kabab</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="tortilla-outline"></ion-icon>
+                            <img width="64" height="64" src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/external-tortilla-mexico-icongeek26-linear-colour-icongeek26.png" alt="external-tortilla-mexico-icongeek26-linear-colour-icongeek26"/>
+                        </div>
+                        <p>Roti</p>
+                    </div>
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="salad-outline"></ion-icon>
+                            <img width="64" height="64" src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-salad-cooking-wanicon-lineal-color-wanicon.png" alt="external-salad-cooking-wanicon-lineal-color-wanicon"/>
+                        </div>
+                        <p>Fresh Salad</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="divider">
+            <!-- list of food menus -->
+            <div class="main-detail">
+                <h2 class="main-title">Choose Order</h2>
+                <div class="detail-wrapper">
+
+                    <div class="detail-card">
+                        <img class="detail-img" src="Chicken-Nihari-Recipe-instagram.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Chicken Nihari</h4>
+                                <p class="detail-sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                                    debitis animi v
+                                </p>
+                                <p class="price">Rs.400/-</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="Chicken-Pulao.jpg">
+                        <div class="detail-desc">
+                            <div class="detail-name">
+                                <h4>Chicken Pulao</h4>
+                                <p class="detail-sub">khjfy hufuf sit amet consectetur adipisicing elit. Ipsum
+                                    debitis animi 
+                                </p>
+                                <p class="price">Rs.450/-</p>
+                            </div>
+                            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="download.jpeg">
+                <div class="detail-desc">
+                    <div class="detail-name">
+                        <h4>Shami Kabab</h4>
+                        <p class="detail-sub">khjfy hufuf sit amet consectetur adipisicing elit. Ipsum
+                            debitis animi 
+                        </p>
+                        <p class="price">Rs.50/- each</p>
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+        </div>
+    </div>
+    <div class="detail-card">
+        <img class="detail-img" src="shahi-qorma-by-shireen-anwar_4269.jpg">
+        <div class="detail-desc">
+            <div class="detail-name">
+                <h4>Shahi Qorma</h4>
+                <p class="detail-sub">khjfy hufuf sit amet consectetur adipisicing elit. Ipsum
+                    debitis animi 
+                </p>
+                <p class="price">Rs.450/-</p>
+            </div>
+            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+    </div>
+    </div>
+    <div class="detail-card">
+        <img class="detail-img" src="Chicken Biryani.webp">
+        <div class="detail-desc">
+            <div class="detail-name">
+                <h4>Chicken Biryani</h4>
+                <p class="detail-sub">khjfy hufuf sit amet consectetur adipisicing elit. Ipsum
+                    debitis animi 
+                </p>
+                <p class="price">Rs.450/-</p>
+            </div>
+            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+    </div>
+    </div>
+    <div class="detail-card">
+        <img class="detail-img" src="Roti.jpg">
+        <div class="detail-desc">
+            <div class="detail-name">
+                <h4>Roti</h4>
+                <p class="detail-sub">khjfy hufuf sit amet consectetur adipisicing elit. Ipsum
+                    debitis animi 
+                </p>
+                <p class="price">Rs.30/- each</p>
+            </div>
+            <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- adding js -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+
+</html>
